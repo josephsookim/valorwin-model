@@ -20,3 +20,13 @@ Eco: 0-5k $ Semi-eco: 5-10k $$ Semi-buy: 10-20k $$$ Full buy: 20k+
 
 - Get Data Set for Training and Validation (Aiming for 10,000 games minimum)
 - Decide between Decision Trees, Random forests, SVMs, Neural Networks
+
+## Built With
+
+## Contributing
+
+Feel free to submit a [pull request](https://github.com/josephsookim/valorwin-model/pull/new/master) or an [issue](https://github.com/josephsookim/valorwin-model/issues/new)!
+
+## License
+
+The MIT License (MIT)
