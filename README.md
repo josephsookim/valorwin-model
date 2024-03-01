@@ -8,7 +8,6 @@ A model to estimate the probability of your round and match win chance using cla
 
 ```
 Eco: 0-5k $ Semi-eco: 5-10k $$ Semi-buy: 10-20k $$$ Full buy: 20k+
-much easier to scrape
 ```
 
 - Loadout Credits of Entire Team (Eco, Semi-eco, semi-buy, full buy)
