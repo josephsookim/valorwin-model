@@ -4,6 +4,11 @@
 
 A model to estimate the probability of your round and match win chance using classification methods.
 
+## Where we get our data
+
+Our data will be scraped from https://www.vlr.gg/
+We have been given permission to scrape their website accordingly.
+
 ## Features
 
 ```
