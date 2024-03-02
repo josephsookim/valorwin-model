@@ -26,7 +26,6 @@ class VLRScraper:
                     map_soup, map_names[map_number]))
 
                 map_number += 1
-                break
 
         return match
 
