@@ -19,16 +19,20 @@ class VLRScraper:
         map_soups = soup.find_all(
             'table', {'class': 'wf-table-inset mod-econ'})
 
+        map_number = 0
         for map_soup in map_soups:
             if VLRScraper.is_valid_map_table(map_soup):
-                match.maps.append(VLRScraper.fetch_map_data(map_soup))
+                match.maps.append(VLRScraper.fetch_map_data(
+                    map_soup, map_names[map_number]))
+
+                map_number += 1
                 break
 
         return match
 
     @staticmethod
-    def fetch_map_data(map_soup: BeautifulSoup) -> Map:
-        map = Map()
+    def fetch_map_data(map_soup: BeautifulSoup, map_name: str) -> Map:
+        map = Map(map_name)
 
         round_soups = map_soup.find_all('td')
 
@@ -42,8 +46,6 @@ class VLRScraper:
     def fetch_round_data(round_soup: BeautifulSoup) -> Round:
         '''
         we need to get
-
-        self.map = map have to get prior in first function
         self.team_score = team_score = handle after
         self.enemy_score = enemy_score = handle after
         self.map_outcome = map_outcome = handle prior
@@ -57,8 +59,6 @@ class VLRScraper:
             loadouts[1].get_text(strip=True))
 
         round_outcome = VLRScraper.fetch_round_winner(round_soup)
-
-        pass
 
     # Helper Functions
     @staticmethod
