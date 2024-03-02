@@ -46,8 +46,12 @@ class VLRScraper:
         '''
 
         loadouts = round_soup.find_all('div', {'class': 'bank'})
-        team_loadout = loadouts[0].get_text(strip=True)
-        enemy_loadout = loadouts[1].get_text(strip=True)
+
+        team_loadout = VLRScraper.categorize_loadout(
+            loadouts[0].get_text(strip=True))
+        enemy_loadout = VLRScraper.categorize_loadout(
+            loadouts[1].get_text(strip=True))
+
         round_outcome = VLRScraper.fetch_round_winner(round_soup)
 
         print(team_loadout, enemy_loadout, round_outcome)
@@ -57,7 +61,7 @@ class VLRScraper:
     # Helper Functions
     @staticmethod
     def categorize_loadout(loadout: str) -> str:
-        value = loadout[:-1]
+        value = float(loadout[:-1])
 
         if value <= 5:
             return 'eco'
