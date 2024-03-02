@@ -3,11 +3,14 @@ import requests
 from bs4 import BeautifulSoup
 import re
 from typing import List, Tuple
+from utils.database import MongoDB
 
 # Models
 from models.Match import Match
 from models.Map import Map
 from models.Round import Round
+
+mongo = MongoDB()
 
 
 class VLRScraper:
@@ -57,6 +60,9 @@ class VLRScraper:
                 enemy_score += 1
 
             map.rounds.append(round)
+
+        # Save to Database
+        mongo.add_map_data(map)
 
         return map
 
