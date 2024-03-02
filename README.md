@@ -37,6 +37,13 @@ Have permission to scrape
 
 empty as of now
 
+## Built With
+
+- [Requests](https://requests.readthedocs.io/en/master/)
+- [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
+- [Python-DotEnv](https://pypi.org/project/python-dotenv/)
+- [PyMongo](https://pypi.org/project/pymongo/)
+
 ## Contributing
 
 Feel free to submit a [pull request](https://github.com/josephsookim/valorwin-model/pull/new/master) or an [issue](https://github.com/josephsookim/valorwin-model/issues/new)!
