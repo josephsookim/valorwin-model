@@ -2,7 +2,7 @@
 import requests
 from bs4 import BeautifulSoup
 import re
-from typing import List
+from typing import List, Tuple
 
 # Models
 from models.Match import Match
@@ -32,25 +32,37 @@ class VLRScraper:
 
     @staticmethod
     def fetch_map_data(map_soup: BeautifulSoup, map_name: str) -> Map:
-        map = Map(map_name)
-
         round_soups = map_soup.find_all('td')
+        round_tables = []
 
         for round_soup in round_soups:
             if VLRScraper.is_valid_round_table(round_soup):
-                map.rounds.append(VLRScraper.fetch_round_data(round_soup))
+                round_tables.append(round_soup)
+
+        # get map winner
+        _, map_outcome = VLRScraper.fetch_round_data(
+            round_tables[-1], -1, -1)
+
+        map = Map(map_name, map_outcome)
+
+        team_score = 0
+        enemy_score = 0
+        for round_table in round_tables:
+            round, round_winner = VLRScraper.fetch_round_data(
+                round_table, team_score, enemy_score)
+
+            if round_winner == 1:
+                team_score += 1
+
+            else:
+                enemy_score += 1
+
+            map.rounds.append(round)
 
         return map
 
     @staticmethod
-    def fetch_round_data(round_soup: BeautifulSoup) -> Round:
-        '''
-        we need to get
-        self.team_score = team_score = handle after
-        self.enemy_score = enemy_score = handle after
-        self.map_outcome = map_outcome = handle prior
-        '''
-
+    def fetch_round_data(round_soup: BeautifulSoup, team_score, enemy_score) -> Tuple[Round, int]:
         loadouts = round_soup.find_all('div', {'class': 'bank'})
 
         team_loadout = VLRScraper.categorize_loadout(
@@ -59,6 +71,11 @@ class VLRScraper:
             loadouts[1].get_text(strip=True))
 
         round_outcome = VLRScraper.fetch_round_winner(round_soup)
+
+        round = Round(team_loadout, enemy_loadout,
+                      team_score, enemy_score, round_outcome)
+
+        return round, round_outcome
 
     # Helper Functions
     @staticmethod
