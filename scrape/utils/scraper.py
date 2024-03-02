@@ -56,6 +56,19 @@ class VLRScraper:
 
     # Helper Functions
     @staticmethod
+    def categorize_loadout(loadout: str) -> str:
+        value = loadout[:-1]
+
+        if value <= 5:
+            return 'eco'
+        elif 5 < value <= 10:
+            return 'semi-eco'
+        elif 10 < value <= 20:
+            return 'semi-buy'
+        else:
+            return 'full-buy'
+
+    @staticmethod
     def fetch_round_winner(round_soup: BeautifulSoup) -> int:
         # Find all div elements within the td element
         div_elements = round_soup.find_all('div', {'class': 'rnd-sq'})
