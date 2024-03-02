@@ -42,7 +42,7 @@ class VLRScraper:
         self.map = map have to get prior in first function
         self.team_score = team_score = handle after
         self.enemy_score = enemy_score = handle after
-        self.match_outcome = match_outcome = handle prior
+        self.map_outcome = map_outcome = handle prior
         '''
 
         loadouts = round_soup.find_all('div', {'class': 'bank'})
