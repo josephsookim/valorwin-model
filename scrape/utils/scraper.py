@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import re
+from typing import List
 
 from models.Match import Match
 from models.Map import Map
@@ -59,6 +60,10 @@ class VLRScraper:
         pass
 
     # Helper Functions
+    @staticmethod
+    def fetch_map_names(soup: BeautifulSoup) -> List[str]:
+        pass
+
     @staticmethod
     def categorize_loadout(loadout: str) -> str:
         value = float(loadout[:-1])
