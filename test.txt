@@ -1,0 +1,374 @@
+<td>
+<div class="ge-text-light label" style="padding-bottom: 10px;">	
+									(BANK)
+								</div>
+<div class="team" style="height: 28px;">
+<img src="//owcdn.net/img/637b755224c12.png"/>
+										
+																		TH								</div>
+<div class="team" style="height: 28px; margin-top: 3px;">
+<img src="//owcdn.net/img/627403a0d9e48.png"/>
+										
+																		KC								</div>
+<div class="ge-text-light label" style="padding-top: 10px;">	
+									(BANK)
+								</div>
+</td>
+<td>
+<div class="ge-text-light round-num">
+											1										</div>
+<div class="bank">0.1k</div>
+<!--
+										<div>
+											4.1k										</div>
+										-->
+<div class="rnd-sq mod-win mod-t">
+</div>
+<div class="rnd-sq">
+</div>
+<!--
+										<div>
+											3.9k										</div>
+										-->
+<div class="bank">
+											0.2k										</div>
+</td>
+<td>
+<div class="ge-text-light round-num">
+											2										</div>
+<div class="bank">3.1k</div>
+<!--
+										<div>
+											15.5k										</div>
+										-->
+<div class="rnd-sq mod-win mod-t">
+												$$											</div>
+<div class="rnd-sq">
+</div>
+<!--
+										<div>
+											1.7k										</div>
+										-->
+<div class="bank">
+											9.0k										</div>
+</td>
+<td>
+<div class="ge-text-light round-num">
+											3										</div>
+<div class="bank">11.8k</div>
+<!--
+										<div>
+											16.0k										</div>
+										-->
+<div class="rnd-sq">
+												$$											</div>
+<div class="rnd-sq mod-win mod-ct">
+												$$$											</div>
+<!--
+										<div>
+											21.1k										</div>
+										-->
+<div class="bank">
+											0.5k										</div>
+</td>
+<td>
+<div class="ge-text-light round-num">
+											4										</div>
+<div class="bank">2.0k</div>
+<!--
+										<div>
+											22.3k										</div>
+										-->
+<div class="rnd-sq">
+												$$$											</div>
+<div class="rnd-sq mod-win mod-ct">
+												$$$											</div>
+<!--
+										<div>
+											21.8k										</div>
+										-->
+<div class="bank">
+											5.2k										</div>
+</td>
+<td>
+<div class="ge-text-light round-num">
+											5										</div>
+<div class="bank">7.2k</div>
+<!--
+										<div>
+											11.9k										</div>
+										-->
+<div class="rnd-sq">
+												$$											</div>
+<div class="rnd-sq mod-win mod-ct">
+												$$$											</div>
+<!--
+										<div>
+											22.1k										</div>
+										-->
+<div class="bank">
+											13.5k										</div>
+</td>
+<td>
+<div class="ge-text-light round-num">
+											6										</div>
+<div class="bank">4.0k</div>
+<!--
+										<div>
+											21.3k										</div>
+										-->
+<div class="rnd-sq mod-win mod-t">
+												$$$											</div>
+<div class="rnd-sq">
+												$$$											</div>
+<!--
+										<div>
+											23.2k										</div>
+										-->
+<div class="bank">
+											10.3k										</div>
+</td>
+<td>
+<div class="ge-text-light round-num">
+											7										</div>
+<div class="bank">15.1k</div>
+<!--
+										<div>
+											21.5k										</div>
+										-->
+<div class="rnd-sq">
+												$$$											</div>
+<div class="rnd-sq mod-win mod-ct">
+												$$$											</div>
+<!--
+										<div>
+											20.8k										</div>
+										-->
+<div class="bank">
+											3.2k										</div>
+</td>
+<td>
+<div class="ge-text-light round-num">
+											8										</div>
+<div class="bank">4.1k</div>
+<!--
+										<div>
+											22.7k										</div>
+										-->
+<div class="rnd-sq">
+												$$$											</div>
+<div class="rnd-sq mod-win mod-ct">
+												$$$											</div>
+<!--
+										<div>
+											22.9k										</div>
+										-->
+<div class="bank">
+											5.6k										</div>
+</td>
+<td>
+<div class="ge-text-light round-num">
+											9										</div>
+<div class="bank">5.5k</div>
+<!--
+										<div>
+											12.0k										</div>
+										-->
+<div class="rnd-sq">
+												$$											</div>
+<div class="rnd-sq mod-win mod-ct">
+												$$$											</div>
+<!--
+										<div>
+											23.8k										</div>
+										-->
+<div class="bank">
+											17.7k										</div>
+</td>
+<td>
+<div class="ge-text-light round-num">
+											10										</div>
+<div class="bank">1.0k</div>
+<!--
+										<div>
+											19.9k										</div>
+										-->
+<div class="rnd-sq">
+												$$											</div>
+<div class="rnd-sq mod-win mod-ct">
+												$$$											</div>
+<!--
+										<div>
+											25.7k										</div>
+										-->
+<div class="bank">
+											24.5k										</div>
+</td>
+<td>
+<div class="ge-text-light round-num">
+											11										</div>
+<div class="bank">6.2k</div>
+<!--
+										<div>
+											10.6k										</div>
+										-->
+<div class="rnd-sq mod-win mod-t">
+												$$											</div>
+<div class="rnd-sq">
+												$$$											</div>
+<!--
+										<div>
+											25.9k										</div>
+										-->
+<div class="bank">
+											32.3k										</div>
+</td>
+<td>
+<div class="ge-text-light round-num">
+											12										</div>
+<div class="bank">10.5k</div>
+<!--
+										<div>
+											23.8k										</div>
+										-->
+<div class="rnd-sq">
+												$$$											</div>
+<div class="rnd-sq mod-win mod-ct">
+												$$$											</div>
+<!--
+										<div>
+											24.1k										</div>
+										-->
+<div class="bank">
+											18.5k										</div>
+</td>
+<td>
+<div class="ge-text-light label" style="padding-bottom: 10px;">	
+									(BANK)
+								</div>
+<div class="team" style="height: 28px;">
+<img src="//owcdn.net/img/637b755224c12.png"/>
+										
+																		TH								</div>
+<div class="team" style="height: 28px; margin-top: 3px;">
+<img src="//owcdn.net/img/627403a0d9e48.png"/>
+										
+																		KC								</div>
+<div class="ge-text-light label" style="padding-top: 10px;">	
+									(BANK)
+								</div>
+</td>
+<td>
+<div class="ge-text-light round-num">
+											13										</div>
+<div class="bank">0.2k</div>
+<!--
+										<div>
+											3.6k										</div>
+										-->
+<div class="rnd-sq">
+</div>
+<div class="rnd-sq mod-win mod-t">
+</div>
+<!--
+										<div>
+											4.2k										</div>
+										-->
+<div class="bank">
+											0.2k										</div>
+</td>
+<td>
+<div class="ge-text-light round-num">
+											14										</div>
+<div class="bank">7.5k</div>
+<!--
+										<div>
+											3.2k										</div>
+										-->
+<div class="rnd-sq">
+</div>
+<div class="rnd-sq mod-win mod-t">
+												$$											</div>
+<!--
+										<div>
+											15.5k										</div>
+										-->
+<div class="bank">
+											4.1k										</div>
+</td>
+<td>
+<div class="ge-text-light round-num">
+											15										</div>
+<div class="bank">0.6k</div>
+<!--
+										<div>
+											18.9k										</div>
+										-->
+<div class="rnd-sq">
+												$$											</div>
+<div class="rnd-sq mod-win mod-t">
+												$$											</div>
+<!--
+										<div>
+											19.1k										</div>
+										-->
+<div class="bank">
+											14.5k										</div>
+</td>
+<td>
+<div class="ge-text-light round-num">
+											16										</div>
+<div class="bank">5.1k</div>
+<!--
+										<div>
+											11.5k										</div>
+										-->
+<div class="rnd-sq">
+												$$											</div>
+<div class="rnd-sq mod-win mod-t">
+												$$$											</div>
+<!--
+										<div>
+											24.0k										</div>
+										-->
+<div class="bank">
+											12.3k										</div>
+</td>
+<td>
+<div class="ge-text-light round-num">
+											17										</div>
+<div class="bank">0.3k</div>
+<!--
+										<div>
+											20.7k										</div>
+										-->
+<div class="rnd-sq mod-win mod-ct">
+												$$$											</div>
+<div class="rnd-sq">
+												$$$											</div>
+<!--
+										<div>
+											24.4k										</div>
+										-->
+<div class="bank">
+											10.4k										</div>
+</td>
+<td>
+<div class="ge-text-light round-num">
+											18										</div>
+<div class="bank">3.9k</div>
+<!--
+										<div>
+											19.6k										</div>
+										-->
+<div class="rnd-sq">
+												$$											</div>
+<div class="rnd-sq mod-win mod-t">
+												$$$											</div>
+<!--
+										<div>
+											20.5k										</div>
+										-->
+<div class="bank">
+											2.2k										</div>
+</td>
