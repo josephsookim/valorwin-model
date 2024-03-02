@@ -14,9 +14,13 @@ class VLRScraper:
     @staticmethod
     def fetch_match_data(soup: BeautifulSoup) -> Match:
         match = Match()
+        map_names = VLRScraper.fetch_map_names(soup)
+
+        print(map_names)
 
         map_soups = soup.find_all(
             'table', {'class': 'wf-table-inset mod-econ'})
+        return
 
         for map_soup in map_soups:
             if VLRScraper.is_valid_map_table(map_soup):
@@ -57,14 +61,14 @@ class VLRScraper:
 
         round_outcome = VLRScraper.fetch_round_winner(round_soup)
 
-        print(team_loadout, enemy_loadout, round_outcome)
-
         pass
 
     # Helper Functions
     @staticmethod
     def fetch_map_names(soup: BeautifulSoup) -> List[str]:
-        pass
+        map_soups = soup.find_all('div', {'class': 'js-map-switch'})[1:]
+
+        return [map_soup.find('div').get_text(strip=True)[1:] for map_soup in map_soups]
 
     @staticmethod
     def categorize_loadout(loadout: str) -> str:
