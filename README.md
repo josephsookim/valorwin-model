@@ -30,8 +30,8 @@ Eco: 0-5k $ Semi-eco: 5-10k $$ Semi-buy: 10-20k $$$ Full buy: 20k+
 
 ## Progress
 
-Currently working on developing a scraper for the site VLR.gg
-Have permission to scrape
+- Finishing up scraper for the site VLR.gg
+- Have permission to scrape
 
 ## Notes
 
