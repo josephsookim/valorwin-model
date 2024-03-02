@@ -23,7 +23,13 @@ Eco: 0-5k $ Semi-eco: 5-10k $$ Semi-buy: 10-20k $$$ Full buy: 20k+
 - Decide between Decision Trees, Random forests, SVMs, Neural Networks
 - Implement the chosen AI model
 
-## Built With
+## Notes
+
+table class 'wf-table-inset mod-econ'
+
+<td>
+
+<div class="bank"> x2 inside td
 
 ## Contributing
 
