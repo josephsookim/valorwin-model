@@ -27,9 +27,9 @@ Eco: 0-5k $ Semi-eco: 5-10k $$ Semi-buy: 10-20k $$$ Full buy: 20k+
 
 table class 'wf-table-inset mod-econ'
 
-<td>
+`<td>`
 
-<div class="bank"> x2 inside td
+`<div class="bank">` x2 inside td
 
 ## Contributing
 
