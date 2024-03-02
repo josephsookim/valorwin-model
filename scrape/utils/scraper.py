@@ -18,6 +18,7 @@ class VLRScraper:
         for map_soup in map_soups:
             if VLRScraper.is_valid_map_table(map_soup):
                 match.maps.append(VLRScraper.fetch_map_data(map_soup))
+                break
 
         return match
 
@@ -39,14 +40,17 @@ class VLRScraper:
         we need to get
 
         self.map = map have to get prior in first function
-
-        self.team_loadout = team_loadout
-        self.enemy_loadout = enemy_loadout
-        self.team_score = team_score
-        self.enemy_score = enemy_score
-        self.round_outcome = round_outcome
-        self.match_outcome = match_outcome
+        self.team_score = team_score = handle after
+        self.enemy_score = enemy_score = handle after
+        self.match_outcome = match_outcome = handle prior
         '''
+
+        loadouts = round_soup.find_all('div', {'class': 'bank'})
+        team_loadout = loadouts[0].get_text(strip=True)
+        enemy_loadout = loadouts[1].get_text(strip=True)
+        round_outcome = VLRScraper.fetch_round_winner(round_soup)
+
+        print(team_loadout, enemy_loadout, round_outcome)
 
         pass
 
