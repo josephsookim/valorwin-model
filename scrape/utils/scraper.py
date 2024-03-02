@@ -1,8 +1,10 @@
+# Dependencies
 import requests
 from bs4 import BeautifulSoup
 import re
 from typing import List
 
+# Models
 from models.Match import Match
 from models.Map import Map
 from models.Round import Round
