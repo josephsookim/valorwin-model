@@ -16,11 +16,8 @@ class VLRScraper:
         match = Match()
         map_names = VLRScraper.fetch_map_names(soup)
 
-        print(map_names)
-
         map_soups = soup.find_all(
             'table', {'class': 'wf-table-inset mod-econ'})
-        return
 
         for map_soup in map_soups:
             if VLRScraper.is_valid_map_table(map_soup):
