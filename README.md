@@ -23,6 +23,11 @@ Eco: 0-5k $ Semi-eco: 5-10k $$ Semi-buy: 10-20k $$$ Full buy: 20k+
 - Decide between Decision Trees, Random forests, SVMs, Neural Networks
 - Implement the chosen AI model
 
+## Progress
+
+Currently working on developing a scraper for the site VLR.gg
+Have permission to scrape
+
 ## Notes
 
 empty as of now
