@@ -15,6 +15,17 @@ mongo = MongoDB()
 
 class VLRScraper:
     @staticmethod
+    def fetch_page_match_urls(soup: BeautifulSoup) -> List[str]:
+        match_soups = soup.find_all('a', {'class': 'wf-module-item'})
+        match_urls = []
+
+        for match_tag in match_soups:
+            href = match_tag.get('href')
+            match_urls.append(f'https://www.vlr.gg{href}')
+
+        return match_urls
+
+    @staticmethod
     def fetch_match_data(soup: BeautifulSoup) -> Match:
         match = Match()
         map_names = VLRScraper.fetch_map_names(soup)
