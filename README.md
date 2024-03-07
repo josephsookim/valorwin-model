@@ -11,6 +11,8 @@ We have been given permission to scrape their website accordingly.
 
 over 10k bo3 and bo5 games T1, T2, collegiate
 
+almost 500k round data
+
 ## Features
 
 ```
