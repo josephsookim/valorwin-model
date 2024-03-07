@@ -16,12 +16,17 @@ mongo = MongoDB()
 class VLRScraper:
     @staticmethod
     def fetch_page_match_urls(soup: BeautifulSoup) -> List[str]:
-        match_soups = soup.find_all('a', {'class': 'wf-module-item'})
-        match_urls = []
 
-        for match_tag in match_soups:
-            href = match_tag.get('href')
-            match_urls.append(f'https://www.vlr.gg{href}')
+        card_soups = soup.find_all('div', {'class': 'wf-card'})
+
+        match_urls = []
+        for card_soup in card_soups:
+            match_soups = card_soup.find_all(
+                'a', {'class': 'wf-module-item'})
+
+            for match_tag in match_soups:
+                href = match_tag.get('href')
+                match_urls.append(f'https://www.vlr.gg{href}')
 
         return match_urls
 
