@@ -15,6 +15,16 @@ mongo = MongoDB()
 
 class VLRScraper:
     @staticmethod
+    def load_list_from_file(file_path: str) -> List[str]:
+        items = []
+
+        with open(file_path, 'r') as file:
+            for line in file:
+                items.append(line.strip())
+
+        return items
+
+    @staticmethod
     def fetch_page_match_urls(soup: BeautifulSoup) -> List[str]:
 
         card_soups = soup.find_all('div', {'class': 'wf-card'})
