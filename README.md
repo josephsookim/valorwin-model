@@ -42,6 +42,21 @@ https://drive.google.com/drive/folders/1rjTZpR41E4Q9DpxqqX8VDf53y9XsvwgK?usp=sha
 ## Classification Report
 ![image](https://github.com/josephsookim/valorwin-model/assets/13972507/fd38daef-d956-48ed-bd4d-69fca61c9a39)
 
+## How To Use
+### 1. Import dependencies and load model
+![image](https://github.com/josephsookim/valorwin-model/assets/13972507/a3af80c9-f3cc-4b03-bc41-14c1374b0239)
+
+### 2. Input Data [Must be in this order!]
+![image](https://github.com/josephsookim/valorwin-model/assets/13972507/1a60505f-257e-4b64-8596-f52f939ae285)
+
+### 3. Predict probabilities
+![image](https://github.com/josephsookim/valorwin-model/assets/13972507/65524bd0-e4c8-46df-8f9b-45d1c3db877e)
+
+### 4. Output results
+![image](https://github.com/josephsookim/valorwin-model/assets/13972507/23f196e6-653f-40b9-a223-7cdd1a7c87b3)
+
+
+
 
 ## Built With
 
