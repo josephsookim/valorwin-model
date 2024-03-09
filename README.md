@@ -4,6 +4,7 @@
 
 An AI model utilizing random forest classification to assess the likelihood of winning individual rounds and entire matches in Valorant.
 
+Download link for .pkl and .csv files:
 https://drive.google.com/drive/folders/1rjTZpR41E4Q9DpxqqX8VDf53y9XsvwgK?usp=sharing
 
 ## Data
@@ -12,6 +13,10 @@ https://drive.google.com/drive/folders/1rjTZpR41E4Q9DpxqqX8VDf53y9XsvwgK?usp=sha
 - We have been given permission to scrape their website.
 - This dataset has been created with data from over 10,000 bo3 and bo5 matches from the T1, T2, and collegiate scene.
 - There are almost 500,000 rounds of data that cover every map on Valorant.
+
+### Example Data
+![image](https://github.com/josephsookim/valorwin-model/assets/13972507/9a23b71f-af5c-4b57-ad18-76baf0ed05a0)
+
 
 ## Input Variables
 
@@ -33,6 +38,28 @@ https://drive.google.com/drive/folders/1rjTZpR41E4Q9DpxqqX8VDf53y9XsvwgK?usp=sha
 - Match Outcome
   or
 - Round Outcome
+
+## Classification Report
+![image](https://github.com/josephsookim/valorwin-model/assets/13972507/fd38daef-d956-48ed-bd4d-69fca61c9a39)
+
+## How To Use
+### 1. Import dependencies and load model
+![image](https://github.com/josephsookim/valorwin-model/assets/13972507/a3af80c9-f3cc-4b03-bc41-14c1374b0239)
+
+### 2. Input Data [Must be in this order!]
+![image](https://github.com/josephsookim/valorwin-model/assets/13972507/1a60505f-257e-4b64-8596-f52f939ae285)
+
+### 3. Predict probabilities
+![image](https://github.com/josephsookim/valorwin-model/assets/13972507/65524bd0-e4c8-46df-8f9b-45d1c3db877e)
+
+### 4. Output results
+![image](https://github.com/josephsookim/valorwin-model/assets/13972507/ec84566c-0560-43d0-9eb8-9b48579bc8bd)
+![image](https://github.com/josephsookim/valorwin-model/assets/13972507/cb256b9a-a4e7-4c7b-91b4-09823c3063ad)
+
+
+
+
+
 
 ## Built With
 
