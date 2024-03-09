@@ -4,6 +4,7 @@
 
 An AI model utilizing random forest classification to assess the likelihood of winning individual rounds and entire matches in Valorant.
 
+Download link for .pkl and .csv files:
 https://drive.google.com/drive/folders/1rjTZpR41E4Q9DpxqqX8VDf53y9XsvwgK?usp=sharing
 
 ## Data
