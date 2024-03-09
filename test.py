@@ -28,19 +28,18 @@ input_data = {
     'map_name_Sunset': [True]
 }
 
-# Convert input data to DataFrame and one-hot encode categorical variables
+# Convert input data to DataFrame
 input_df = pd.DataFrame(input_data, index=[0])
-input_df = pd.get_dummies(input_df)
 
 # Predict probabilities for map outcome
 map_probabilities = map_rf.predict_proba(input_df)
 
 # Probability of Team 1 winning map
-print("Probability of Team 1 Winning Map:", map_probabilities[:, 0][0])
+print('Probability of Team 1 Winning Map:', map_probabilities[:, 0][0])
 
 # Probability of Team 2 winning map
-print("Probability of Team 2 Winning Map:", map_probabilities[:, 1][0])
+print('Probability of Team 2 Winning Map:', map_probabilities[:, 1][0])
 
 map_winner = 1 if map_probabilities[:,
                                     0][0] > map_probabilities[:, 1][0] else 2
-print("Predicted winner of the map:", map_winner)
+print('Predicted winner of the map:', map_winner)
