@@ -53,7 +53,8 @@ https://drive.google.com/drive/folders/1rjTZpR41E4Q9DpxqqX8VDf53y9XsvwgK?usp=sha
 ![image](https://github.com/josephsookim/valorwin-model/assets/13972507/65524bd0-e4c8-46df-8f9b-45d1c3db877e)
 
 ### 4. Output results
-![image](https://github.com/josephsookim/valorwin-model/assets/13972507/23f196e6-653f-40b9-a223-7cdd1a7c87b3)
+![image](https://github.com/josephsookim/valorwin-model/assets/13972507/ec84566c-0560-43d0-9eb8-9b48579bc8bd)
+
 
 
 
