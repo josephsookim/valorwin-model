@@ -2,39 +2,37 @@
 
 ## Brief Summary
 
-A model to estimate the probability of your round and match win chance using classification methods.
+An AI model utilizing random forest classification to assess the likelihood of winning individual rounds and entire matches in Valorant.
 
-## Where we get our data
+https://drive.google.com/drive/folders/1rjTZpR41E4Q9DpxqqX8VDf53y9XsvwgK?usp=sharing
 
-Our data will be scraped from https://www.vlr.gg/
-We have been given permission to scrape their website accordingly.
+## Data
 
-over 10k bo3 and bo5 games T1, T2, collegiate
+- Our data will be scraped from https://www.vlr.gg/
+- We have been given permission to scrape their website.
+- This dataset has been created with data from over 10,000 bo3 and bo5 matches from the T1, T2, and collegiate scene.
+- There are almost 500,000 rounds of data that cover every map on Valorant.
 
-almost 500k round data
+## Input Variables
 
-## Features
-
-```
-Eco: 0-5k $ Semi-eco: 5-10k $$ Semi-buy: 10-20k $$$ Full buy: 20k+
-```
-
-- Loadout Credits of Entire Team (Eco, Semi-eco, semi-buy, full buy)
+- Team Loadout
+- Enemy Loadout
+- Team Rounds Won
+- Enemy Rounds Won
 - Map
-- Current Score (Rounds vs Enemy)
+
+### Notes
+
+- Eco: 0-5k
+- Semi Eco: 5-10k
+- Semi Buy: 10-20k
+- Full Buy: 20k+
+
+## Output Variable
+
 - Match Outcome
+  or
 - Round Outcome
-
-## Things To Do
-
-- Get Data Set for Training and Validation (Aiming for 10,000 games minimum)
-- Preprocess the data
-- Decide between Decision Trees, Random forests, SVMs, Neural Networks
-- Implement the chosen AI model
-
-## Progress/Notes
-
-- Finishing up scraper for the site VLR.gg
 
 ## Built With
 
@@ -42,6 +40,8 @@ Eco: 0-5k $ Semi-eco: 5-10k $$ Semi-buy: 10-20k $$$ Full buy: 20k+
 - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
 - [Python-DotEnv](https://pypi.org/project/python-dotenv/)
 - [PyMongo](https://pypi.org/project/pymongo/)
+- [scikit-learn](https://scikit-learn.org/stable/install.html)
+- [pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html)
 
 ## Contributing
 
