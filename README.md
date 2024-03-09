@@ -54,6 +54,8 @@ https://drive.google.com/drive/folders/1rjTZpR41E4Q9DpxqqX8VDf53y9XsvwgK?usp=sha
 
 ### 4. Output results
 ![image](https://github.com/josephsookim/valorwin-model/assets/13972507/ec84566c-0560-43d0-9eb8-9b48579bc8bd)
+![image](https://github.com/josephsookim/valorwin-model/assets/13972507/cb256b9a-a4e7-4c7b-91b4-09823c3063ad)
+
 
 
 
