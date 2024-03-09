@@ -35,6 +35,10 @@ https://drive.google.com/drive/folders/1rjTZpR41E4Q9DpxqqX8VDf53y9XsvwgK?usp=sha
   or
 - Round Outcome
 
+## Classification Report
+![image](https://github.com/josephsookim/valorwin-model/assets/13972507/fd38daef-d956-48ed-bd4d-69fca61c9a39)
+
+
 ## Built With
 
 - [Requests](https://requests.readthedocs.io/en/master/)
