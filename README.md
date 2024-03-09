@@ -14,6 +14,10 @@ https://drive.google.com/drive/folders/1rjTZpR41E4Q9DpxqqX8VDf53y9XsvwgK?usp=sha
 - This dataset has been created with data from over 10,000 bo3 and bo5 matches from the T1, T2, and collegiate scene.
 - There are almost 500,000 rounds of data that cover every map on Valorant.
 
+### Example Data
+![image](https://github.com/josephsookim/valorwin-model/assets/13972507/9a23b71f-af5c-4b57-ad18-76baf0ed05a0)
+
+
 ## Input Variables
 
 - Team Loadout
